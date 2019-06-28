@@ -9,6 +9,16 @@ package Herencia27Junio;
  *
  * @author ISTLOJAV
  */
-public class Cubo {
+public class Cubo extends Figuratridimensional {
+    public double calcularVolumen(double aristas){
+        return V=Math.pow(aristas, 3);
+
+    }
+    public double calcularArea(double aristas){
+    return A=Math.pow(6*aristas,2);
+}
+        
+    
+    
     
 }

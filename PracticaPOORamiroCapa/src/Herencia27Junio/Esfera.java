@@ -9,6 +9,9 @@ package Herencia27Junio;
  *
  * @author ISTLOJAV
  */
-public class Esfera {
-    
+public class Esfera extends Figuratridimensional {
+
+    public double calcularVolumen(double radio, double PI) {
+        return V = Math.pow(4 * Math.PI * radio, 3) / 3;
+    }
 }

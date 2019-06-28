@@ -9,6 +9,11 @@ package Herencia27Junio;
  *
  * @author ISTLOJAV
  */
-public class Tetraedro {
-    
+public class Tetraedro extends Figuratridimensional {
+    public double calcularArea(double lado){
+        return A=Math.pow(Math.sqrt(3)*lado,2);
+    }
+    public double calcularVolumen(double aristas){
+        return V=Math.pow(Math.sqrt(2)/12*aristas,3);
+    }
 }

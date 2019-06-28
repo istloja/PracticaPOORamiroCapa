@@ -10,5 +10,24 @@ package Herencia27Junio;
  * @author ISTLOJAV
  */
 public class Figuratridimensional extends Figura {
-    
+
+    public double V;
+    public double A;
+
+    public double getV() {
+        return V;
+    }
+
+    public void setV(double V) {
+        this.V = V;
+    }
+
+    public double getA() {
+        return A;
+    }
+
+    public void setA(double A) {
+        this.A = A;
+    }
+
 }

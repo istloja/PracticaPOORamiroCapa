@@ -15,7 +15,7 @@ public class Ejecutar {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println(" Ingrese 1 para circulo 2 para triangulo 3 para cuadrado ");
+        System.out.println(" Ingrese 1 para circulo 2 para triangulo 3 para cuadrado 4 Cubo 5 Esfera 6 Tetraedo ");
         int resultado = entrada.nextInt();
         switch (resultado) {
             case 1:
@@ -56,6 +56,28 @@ public class Ejecutar {
                 double perimetroCuadrado = obo.calcularPerimetro(lado);
                 System.out.println(" El perimetro es: " + perimetroCuadrado);
                 break;
+            case 4:
+                System.out.println(" Es un cubo ");
+                System.out.println(" Vamos a calcular el Volumen de un cubo");
+                System.out.println(" Ingrese las aristas del cubo ");
+                double aristas = entrada.nextDouble();
+                Cubo aris = new Cubo();
+                double Volumenarista = aris.calcularVolumen(aristas);
+                System.out.println(" El volumen es:" + Volumenarista);
+                double areacubo = aris.calcularArea(aristas);
+                System.out.println(" El area es: " + areacubo);
+            case 5:
+                System.out.println(" Es una esfera ");
+                System.out.println(" Vamos a calcular el volumend de la esfera ");
+                double esfera=entrada.nextDouble();
+                Esfera obj=new Esfera();
+                System.out.println(" Ingrese el radio ");
+                double Volumenesfera=obj.calcularVolumen(radio, lado);
+
+                
+                
+                
+             
             default:
                 System.out.println(" Ingrese un numero correcto ");
                 break;
